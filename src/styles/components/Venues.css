@@ -1,0 +1,152 @@
+.venue-wrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 25rem 0 25rem;
+    height: 81vh;
+    overflow-y: scroll;
+}
+
+.venue-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.venue-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 2rem 0rem 2rem;
+    border-radius: 0.75rem;
+    transition: transform .1s;
+    border: 1px solid lightgray;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.venue-card:hover{
+    border: 1px solid #4476f6;
+    transform: scale(1.1);
+}
+
+.card-left{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.card-mid{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-left{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.section-right{
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem;
+}
+
+.card-spacer{
+    border-bottom: 1px solid lightgray;
+}
+
+.no-venue-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.no-venue-label{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.card-img{
+    border-radius: 0.75rem;
+}
+
+.venue-card-heading{
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: black;
+}
+
+.venue-card-subheading{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: gray
+}
+
+.venue-card-options{
+    font-size: 0.6rem;
+    color: green
+}
+
+.venue-card-facility{
+    display: flex;
+    flex: 1;
+    justify-content: start;
+}
+
+.venue-card-facility-svg{
+    margin-right: 2rem;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    .venue-wrapper{
+        margin: 0 20rem 0 20rem;
+    }
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .venue-wrapper{
+        margin: 0 15rem 0 15rem;
+    }
+  }
+
+  @media only screen and (max-width: 1050px) {
+    .venue-wrapper{
+        margin: 0 10rem 0 10rem;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .venue-wrapper{
+        margin: 0 5rem 0 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .venue-wrapper{
+        margin: 0 0rem 0 0rem;
+    }
+  }
+
+  @media only screen and (max-width: 757px) {
+    .venue-wrapper{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        margin: 0rem;
+        height: 81vh;
+        overflow-y: scroll;
+        margin-top: 10rem;
+    }
+  }

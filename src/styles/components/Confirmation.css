@@ -1,0 +1,39 @@
+.confirmation-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.confirmation-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.confirmation-label{
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.confirmation-result{
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.booking-btn{
+    border: 1px solid #4476f6;
+    background-color: #4476f6;
+    color: white;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.25rem 2rem 0.25rem 2rem;
+    cursor: pointer;
+}
